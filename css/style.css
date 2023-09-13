@@ -63,19 +63,19 @@ body {
     text-align: center;
 }
 
-.result {
+.output {
     text-align: center;
     margin: 40px 0; 
     opacity: 0; 
     transition: margin 0.3s ease, opacity 0.3s ease; 
 }
 
-.result-heading {
+.output-heading {
     color: #fcf9f9;
     font-size: 1rem;
     font-weight: 600;
 }
-.result.show {
+.output.show {
     margin: 20px 0; 
     opacity: 1; 
 }

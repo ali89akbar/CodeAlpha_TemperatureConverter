@@ -17,8 +17,8 @@ cvtbtn.addEventListener("click",(e)=>{
     },1000)
 
 })
-const resultElement = document.querySelector('.result');
-resultElement.classList.add('show');
+const outputElement = document.querySelector('.output');
+outputElement.classList.add('show');
 
 function conversion(){
 let  value= deg.value;
